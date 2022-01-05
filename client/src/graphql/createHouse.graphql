@@ -1,0 +1,5 @@
+mutation CreateHouse($input: CreateHouseInput!) {
+  createHouse(input: $input) {
+    id
+  }
+}

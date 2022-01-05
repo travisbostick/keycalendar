@@ -1,0 +1,13 @@
+query HouseReservations($houseId: String!) {
+  house(houseId: $houseId) {
+    house {
+      name
+      reservations {
+        id
+        title
+        start
+        end
+      }
+    }
+  }
+}

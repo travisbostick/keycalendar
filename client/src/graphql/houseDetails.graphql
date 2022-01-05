@@ -1,0 +1,16 @@
+query HouseDetails($houseId: String!) {
+  house(houseId: $houseId) {
+    house {
+      id
+      name
+      address
+      city
+      state
+      country
+      zipcode
+    }
+    users {
+      name
+    }
+  }
+}

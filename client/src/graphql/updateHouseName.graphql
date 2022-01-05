@@ -1,0 +1,3 @@
+mutation UpdateHouseName($name: String!, $houseId: String!) {
+  updateHouseName(name: $name, id: $houseId)
+}

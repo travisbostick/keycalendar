@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  height: 1.3rem !important;
+}
+
+.input-login {
+  width: 18rem;
+}
+
+.fc-daygrid-day-number,
+.fc-col-header-cell-cushion {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.fc-daygrid-day-number:hover,
+.fc-col-header-cell-cushion:hover {
+  color: #0d6efd;
+}
+
+.fc-highlight {
+  background-color: rgba(177, 205, 255, 0.4) !important;
+}
+
+a:hover {
+  color: grey;
+}
+
+.appbar-title {
+  cursor: pointer;
+}

@@ -1,0 +1,3 @@
+mutation AccessHouse($houseId: String!) {
+  accessHouse(houseId: $houseId)
+}

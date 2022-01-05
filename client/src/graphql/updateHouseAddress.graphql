@@ -1,0 +1,6 @@
+mutation UpdateHouseAddress(
+  $input: UpdateHouseAddressInput!
+  $houseId: String!
+) {
+  updateHouseAddress(input: $input, id: $houseId)
+}

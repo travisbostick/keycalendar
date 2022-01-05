@@ -1,0 +1,3 @@
+mutation AddUserHouse($houseId: String!) {
+  addAdminHouse(houseId: $houseId)
+}

@@ -1,0 +1,3 @@
+mutation DeleteReservation($reservationId: String!) {
+  deleteReservation(id: $reservationId)
+}

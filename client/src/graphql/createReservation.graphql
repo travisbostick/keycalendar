@@ -1,0 +1,3 @@
+mutation CreateReservation($input: ReservationInput!, $houseId: String!) {
+  createReservation(input: $input, houseId: $houseId)
+}

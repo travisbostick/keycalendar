@@ -1,0 +1,3 @@
+mutation InviteUser($email: String!, $houseId: String!) {
+  inviteUser(email: $email, houseId: $houseId)
+}
